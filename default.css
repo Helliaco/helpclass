@@ -6013,8 +6013,11 @@ body > * {
   background-repeat: none;
   background-position: center; }
 
-.font-raleway, h1.style1 {
+.font-raleway, h1.t-style2, h1.style1 {
   font-family: 'Raleway', sans-serif; }
+
+.text-shadow, h1.t-style2, .header-sub-titulo {
+  text-shadow: 1px 1px #000; }
 
 #header-menu {
   position: absolute;
@@ -6031,7 +6034,7 @@ body > * {
   padding: 250px 0px 100px; }
 
 h1.t-style2 {
-  font-size: 6rem; }
+  font-size: 4rem; }
 
 h1.style1 {
   font-weight: bold;
@@ -6048,3 +6051,9 @@ h1.style1 {
 .mx-w-80 {
   max-width: 80%;
   margin: 0 auto; }
+
+.header-sub-titulo {
+  max-width: 750px;
+  margin: 0 auto 70px;
+  font-weight: bold;
+  font-size: 1.5rem; }
