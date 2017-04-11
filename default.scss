@@ -162,6 +162,9 @@ body > * {
 .font-raleway{
   font-family: 'Raleway', sans-serif;
 }
+.text-shadow{
+  text-shadow:1px 1px #000;
+}
 
 #header-menu{
  position: absolute;
@@ -181,8 +184,9 @@ body > * {
  padding:250px 0px 100px; 
 }
 h1.t-style2{
-	font-size: 6rem;
-  @extend .font-releway;
+	font-size: 4rem;
+  @extend .font-raleway;
+  @extend .text-shadow;
 }
 h1.style1 {
   @extend .font-raleway;
@@ -203,5 +207,12 @@ h1.style1 {
 .mx-w-80{
  	max-width:80%;
   margin:0 auto;
+}
+.header-sub-titulo{
+ max-width:750px;
+  margin:0 auto 70px;
+  font-weight:bold;
+  font-size:1.5rem;
+  @extend .text-shadow;
 }
 
