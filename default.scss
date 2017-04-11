@@ -29,7 +29,7 @@ $purple: #613d7c !default;
 // Grayscale and brand colors for use across Bootstrap.
 // Create grayscale
 $gray-dark:                 #292b2c !default;
-$gray:                      #464a4c !default;
+$gray:                      #00B0EF !default;
 $gray-light:                #636c72 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
@@ -165,13 +165,23 @@ body > * {
   width:100%;
   font-weight:bold;
   color:#fff;
+  a{
+   color:$white; 
+  }
+  .navbar-brand{
+   font-size:0px; 
+  }
+}
+
+#mx-sub-header{
+ padding-top:200px; 
 }
 
 h1.style1 {
  	font-weight:bold;
   font-family: 'Raleway', sans-serif;
   position:relative;
-  margin-bottom:25px;
+  margin: 30px 0px 25px;
   &:before {
     content: '';
     position:absolute;
@@ -182,4 +192,9 @@ h1.style1 {
   }
 }
 
+
+.mx-w-80{
+ 	max-width:80%;
+  margin:0 auto;
+}
 
