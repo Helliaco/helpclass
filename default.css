@@ -6022,7 +6022,13 @@ body > * {
 
 h1.style1 {
   font-weight: bold;
-  font-family: 'Raleway', sans-serif; }
-  h1.style1 + div.divisor {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  margin-bottom: 25px; }
+  h1.style1:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
     border-bottom: 2px solid #FF9700;
-    width: 150px; }
+    width: 150px;
+    right: calc( 50% - 75px); }
