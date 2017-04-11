@@ -6008,6 +6008,9 @@ mark,
 .blockquote-reverse .blockquote-footer::after {
   content: "\00A0 \2014"; }
 
+html {
+  background: #393939; }
+
 body {
   max-width: 1920px;
   margin: 0 auto; }
