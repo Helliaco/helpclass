@@ -6008,10 +6008,13 @@ mark,
 .blockquote-reverse .blockquote-footer::after {
   content: "\00A0 \2014"; }
 
-body > * {
-  background-size: cover;
-  background-repeat: none;
-  background-position: center; }
+body {
+  max-width: 1920px;
+  margin: 0 auto; }
+  body > * {
+    background-size: cover;
+    background-repeat: none;
+    background-position: center; }
 
 .center-m-w, .m-w-800, .m-w-600, .m-w-300, .m-w-200 {
   margin: 0 auto; }
@@ -6089,6 +6092,12 @@ h1.style1, .t-style3 {
 .mx-w-80 {
   max-width: 80%;
   margin: 0 auto; }
+
+.footer-menu a {
+  color: white; }
+  .footer-menu a:hover {
+    color: #FF9900;
+    text-decoration: none; }
 
 .header-sub-titulo {
   max-width: 750px;
