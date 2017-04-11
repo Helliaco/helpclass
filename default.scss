@@ -291,11 +291,33 @@ a.btn.btn-destaque {
 #alunos-professores{
   
   .col-a-p{
+    padding:0px;
     .top, .bot{
      height: 312px;
+      position:relative;
     }
    	img{
-     margin-top:-250px; 
+      position:absolute;
+      bottom:0px;
+    }
+    .box-content{
+      padding:50px 30px;
+    	p{
+       font-size: 38px;
+        line-height:45px;
+      }
     }
   }
+  
+  .col-a-p-a{
+   	img{
+    	right:172px;
+    }
+  }
+  .col-a-p-p{
+    img{
+    	left:172px;
+    }
+  }
+  
 }
