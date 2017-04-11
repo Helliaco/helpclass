@@ -170,9 +170,9 @@ body > * {
 h1.style1 {
  font-weight:bold;
   font-family: 'Raleway', sans-serif;
-  & + span.divisor {
-  	border: 1px solid #FF9700;
-    min-width:150px;
+  & + div.divisor {
+  	border-bottom: 2px solid #FF9700;
+    width: 150px;
   }
 }
 
