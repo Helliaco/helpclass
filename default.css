@@ -6025,7 +6025,7 @@ body > * {
     font-size: 0px; }
 
 #mx-sub-header {
-  padding-top: 200px; }
+  padding: 200px 0px 100px; }
 
 h1.style1 {
   font-weight: bold;
