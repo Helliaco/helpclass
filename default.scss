@@ -168,11 +168,17 @@ body > * {
 }
 
 h1.style1 {
- font-weight:bold;
+ 	font-weight:bold;
   font-family: 'Raleway', sans-serif;
-  & + div.divisor {
+  position:relative;
+  margin-bottom:25px;
+  &:before {
+    content: '';
+    position:absolute;
+    bottom:-10px;
   	border-bottom: 2px solid #FF9700;
     width: 150px;
+    right: calc( 50% - 75px );
   }
 }
 
