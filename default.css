@@ -6017,7 +6017,10 @@ body > * {
   font-family: 'Raleway', sans-serif; }
 
 .text-shadow, h1.t-style2, .header-sub-titulo {
-  text-shadow: 1px 1px #000; }
+  text-shadow: 0px 5px 6px rgba(0, 0, 0, 0.3); }
+
+.mx-box-shadow, a.btn.btn-destaque {
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2); }
 
 #header-menu {
   position: absolute;
@@ -6057,3 +6060,13 @@ h1.style1 {
   margin: 0 auto 70px;
   font-weight: bold;
   font-size: 1.5rem; }
+
+a.btn.btn-destaque {
+  border: 6px solid #fff;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  max-width: 350px;
+  font-size: 1.3rem;
+  padding: 15px 5px 16px; }
