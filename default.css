@@ -6016,7 +6016,7 @@ body > * {
 .center-m-w, .m-w-800, .m-w-600, .m-w-300, .m-w-200 {
   margin: 0 auto; }
 
-.font-raleway, h1.t-style2, h1.style1 {
+.font-raleway, h1.t-style2, h1.style1, .t-style3 {
   font-family: 'Raleway', sans-serif; }
 
 .text-shadow, h1.t-style2, .header-sub-titulo {
@@ -6069,17 +6069,22 @@ body > * {
 h1.t-style2 {
   font-size: 4rem; }
 
-h1.style1 {
+h1.style1, .t-style3 {
   font-weight: bold;
   position: relative;
   margin: 30px 0px 25px; }
-  h1.style1:before {
+  h1.style1:before, .t-style3:before {
     content: '';
     position: absolute;
     bottom: -10px;
     border-bottom: 2px solid #FF9700;
     width: 150px;
     right: calc( 50% - 75px); }
+
+.t-style3 {
+  font-weight: initial !important; }
+  .t-style3:before {
+    border-color: #fff; }
 
 .mx-w-80 {
   max-width: 80%;
