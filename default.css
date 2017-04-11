@@ -6013,7 +6013,7 @@ body > * {
   background-repeat: none;
   background-position: center; }
 
-.center-m-w, .m-w-800, .m-w-300, .m-w-200 {
+.center-m-w, .m-w-800, .m-w-600, .m-w-300, .m-w-200 {
   margin: 0 auto; }
 
 .font-raleway, h1.t-style2, h1.style1 {
@@ -6027,6 +6027,9 @@ body > * {
 
 .m-w-800 {
   max-width: 800px; }
+
+.m-w-600 {
+  max-width: 600px; }
 
 .m-w-300 {
   max-width: 300; }
