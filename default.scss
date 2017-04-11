@@ -29,14 +29,14 @@ $purple: #613d7c !default;
 // Grayscale and brand colors for use across Bootstrap.
 // Create grayscale
 $gray-dark:                 #393939 !default;
-$gray:                      #00B0EF !default;
+$gray:                      #09B2EF !default;
 $gray-light:                #636c72 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
 // Reassign color vars to semantic color scheme
 $brand-primary:             #FF9900 !default;
-$brand-success:             #393939 !default;
+$brand-success:             $gray-dark  !default;
 $brand-info:                $teal !default;
 $brand-warning:             $orange !default;
 $brand-danger:              $red !default;
@@ -167,6 +167,10 @@ body > * {
 }
 .mx-box-shadow{
  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2); 
+}
+.m-w-300{
+ max-width:300;
+  margin:0 auto;
 }
 
 #header-menu{
