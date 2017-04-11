@@ -35,8 +35,8 @@ $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
 // Reassign color vars to semantic color scheme
-$brand-primary:             $blue !default;
-$brand-success:             $green !default;
+$brand-primary:             #FF9900 !default;
+$brand-success:             #393939 !default;
 $brand-info:                $teal !default;
 $brand-warning:             $orange !default;
 $brand-danger:              $red !default;
@@ -166,4 +166,14 @@ body > * {
   font-weight:bold;
   color:#fff;
 }
+
+h1.style1 {
+ font-weight:bold;
+  font-family: 'Raleway', sans-serif;
+  & + span.divisor {
+  	border: 1px solid #FF9700;
+    min-width:150px;
+  }
+}
+
 
