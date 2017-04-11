@@ -153,6 +153,7 @@ $blockquote-font-size:    ($font-size-base * 1.25) !default;
 
 // ADD YOUR CUSTOM CSS HERE  
 html{
+	background:$gray-dark;
 }
 body {
   max-width: 1920px;
