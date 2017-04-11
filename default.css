@@ -6118,8 +6118,22 @@ a.btn.btn-destaque {
   font-size: 1.3rem;
   padding: 15px 5px 16px; }
 
-#alunos-professores .col-a-p .top, #alunos-professores .col-a-p .bot {
-  height: 312px; }
+#alunos-professores .col-a-p {
+  padding: 0px; }
+  #alunos-professores .col-a-p .top, #alunos-professores .col-a-p .bot {
+    height: 312px;
+    position: relative; }
+  #alunos-professores .col-a-p img {
+    position: absolute;
+    bottom: 0px; }
+  #alunos-professores .col-a-p .box-content {
+    padding: 50px 30px; }
+    #alunos-professores .col-a-p .box-content p {
+      font-size: 38px;
+      line-height: 45px; }
 
-#alunos-professores .col-a-p img {
-  margin-top: -250px; }
+#alunos-professores .col-a-p-a img {
+  right: 172px; }
+
+#alunos-professores .col-a-p-p img {
+  left: 172px; }
