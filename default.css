@@ -6054,6 +6054,13 @@ body {
 .py-6 {
   padding: 80px 0px; }
 
+.bg-gray {
+  background: #09B2EF;
+  border-color: #09B2EF; }
+  .bg-gray:hover {
+    background: #0472B1;
+    border-color: #0472B1; }
+
 .btn-azul {
   font-size: 22px;
   background: #0495E8;
