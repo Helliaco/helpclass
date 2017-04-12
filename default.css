@@ -6046,7 +6046,7 @@ body {
   font-weight: bold; }
 
 .no-bold {
-  font-weight: normal; }
+  font-weight: normal !important; }
 
 .bg-more-black {
   background: #303030; }
