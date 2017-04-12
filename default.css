@@ -6187,3 +6187,8 @@ a.btn-clean {
   background-repeat: no-repeat;
   width: 32%;
   height: 587px; }
+
+/*** Editando Bootstrap ***/
+.breadcrumb {
+  background: transparent;
+  padding: 15px 0px; }
