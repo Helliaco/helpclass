@@ -309,6 +309,10 @@ a.btn.btn-destaque {
         border-bottom: 20px solid transparent;
         border-right: 20px solid #fff;
 }
+.before_content{
+ 	content: '';
+  position:absolute;
+}
 #alunos-professores{
   
   .col-a-p{
@@ -354,4 +358,15 @@ a.btn.btn-destaque {
     }
   }
   
+}
+
+#app-section{
+  &:before{
+  	@extend .before_content;
+    background-image: url(app_helpclass.png);
+    left:0px;
+    background-size:cover;
+    width:30%;
+    height: 587px;
+  }
 }
