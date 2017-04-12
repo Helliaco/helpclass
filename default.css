@@ -6059,7 +6059,9 @@ body {
   background: #0495E8;
   border-radius: 50px;
   border: 0px;
-  padding: 15px 35px 16px; }
+  padding: 15px 35px 16px;
+  position: relative;
+  z-index: 8; }
   .btn-azul:hover {
     background: #0871AC; }
 
@@ -6145,7 +6147,9 @@ a.btn.btn-destaque {
     position: absolute;
     bottom: 0px; }
   #alunos-professores .col-a-p .box-content {
-    padding: 50px 30px; }
+    padding: 50px 30px;
+    position: relative;
+    z-index: 7; }
     #alunos-professores .col-a-p .box-content p {
       font-size: 38px;
       line-height: 45px; }
