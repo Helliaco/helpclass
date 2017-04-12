@@ -6132,6 +6132,10 @@ a.btn.btn-destaque {
   border-bottom: 20px solid transparent;
   border-right: 20px solid #fff; }
 
+.before_content, #app-section:before {
+  content: '';
+  position: absolute; }
+
 #alunos-professores .col-a-p {
   padding: 0px; }
   #alunos-professores .col-a-p .top, #alunos-professores .col-a-p .bot {
@@ -6156,3 +6160,10 @@ a.btn.btn-destaque {
   border-right: 0px;
   border-left: 20px solid #fff;
   left: 0px; }
+
+#app-section:before {
+  background-image: url(app_helpclass.png);
+  left: 0px;
+  background-size: cover;
+  width: 30%;
+  height: 587px; }
