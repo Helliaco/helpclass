@@ -301,6 +301,22 @@ a.btn.btn-destaque {
     padding: 15px 5px 16px;
   @extend .mx-box-shadow;
 }
+.btn.btn-padrao{
+  width:100%;
+  max-width:320px;
+  border-radius:50px;
+  font-weight:bold;
+  padding:12px 10px;
+}
+.btn-clean{
+  @extend .btn.btn-padrao;
+  background:transparent;
+  border:1px solid #fff;
+  &:hover{
+   background:#fff;
+    color:$gray
+  }
+}
 
 .before_arrow{
   content: ' ';
