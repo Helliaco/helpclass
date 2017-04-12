@@ -363,10 +363,14 @@ a.btn.btn-destaque {
 #app-section{
   &:before{
   	@extend .before_content;
-    background-image: url(app_helpclass.png);
+    background: {
+      image: url(app_helpclass.png);
+      
+    }
     left:0px;
-    background-size:cover;
-    width:30%;
+   	background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 32%;
     height: 587px;
   }
 }
