@@ -218,6 +218,8 @@ font-weight:normal;
   &:hover{
    background:#0871AC; 
   }
+  position:relative;
+  z-index:8;
 }
 
 #header-menu{
@@ -327,6 +329,8 @@ a.btn.btn-destaque {
     }
     .box-content{
       padding:50px 30px;
+      position:relative;
+      z-index:7;
     	p{
        font-size: 38px;
         line-height:45px;
