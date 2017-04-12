@@ -6024,7 +6024,7 @@ body {
 .text-shadow, h1.t-style2, .header-sub-titulo {
   text-shadow: 0px 5px 6px rgba(0, 0, 0, 0.3); }
 
-.mx-box-shadow, .btn-azul, a.btn.btn-destaque {
+.mx-box-shadow, .btn-azul, a.btn-destaque {
   box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2); }
 
 .m-w-800 {
@@ -6115,7 +6115,7 @@ h1.style1, .t-style3 {
   font-weight: bold;
   font-size: 1.5rem; }
 
-a.btn.btn-destaque {
+a.btn-destaque {
   border: 6px solid #fff;
   border-radius: 50px;
   text-transform: uppercase;
@@ -6125,19 +6125,20 @@ a.btn.btn-destaque {
   font-size: 1.3rem;
   padding: 15px 5px 16px; }
 
-.btn.btn-padrao, .btn-clean {
+a.btn-padrao, a.btn-clean {
   width: 100%;
   max-width: 320px;
   border-radius: 50px;
   font-weight: bold;
   padding: 12px 10px; }
 
-.btn-clean {
+a.btn-clean {
   background: transparent;
   border: 1px solid #fff; }
-  .btn-clean:hover {
+  a.btn-clean:hover {
     background: #fff;
-    color: #09B2EF; }
+    color: #09B2EF;
+    border-color: #fff; }
 
 .before_arrow, #alunos-professores .col-a-p-a .top:before, #alunos-professores .col-a-p-p .bot:before {
   content: ' ';
