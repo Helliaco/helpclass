@@ -300,7 +300,15 @@ a.btn.btn-destaque {
   @extend .mx-box-shadow;
 }
 
-
+.before_arrow{
+  content: ' ';
+        position:absolute;
+        right:0;
+        bottom: calc(50% - 10px);
+        border-top:20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid #fff;
+}
 #alunos-professores{
   
   .col-a-p{
@@ -326,10 +334,23 @@ a.btn.btn-destaque {
    	img{
     	right:172px;
     }
+    .top{
+     	&:before {
+       	@extend .before_arrow;
+      }
+    }
   }
   .col-a-p-p{
     img{
     	left:172px;
+    }
+    .bot{
+     	&:before {
+       	@extend .before_arrow;
+        border-right: 0px;
+        border-left: 20px solid #fff;
+        left:0px;
+      }
     }
   }
   
