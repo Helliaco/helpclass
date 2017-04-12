@@ -6125,6 +6125,20 @@ a.btn.btn-destaque {
   font-size: 1.3rem;
   padding: 15px 5px 16px; }
 
+.btn.btn-padrao, .btn-clean {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 50px;
+  font-weight: bold;
+  padding: 12px 10px; }
+
+.btn-clean {
+  background: transparent;
+  border: 1px solid #fff; }
+  .btn-clean:hover {
+    background: #fff;
+    color: #09B2EF; }
+
 .before_arrow, #alunos-professores .col-a-p-a .top:before, #alunos-professores .col-a-p-p .bot:before {
   content: ' ';
   position: absolute;
