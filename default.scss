@@ -365,10 +365,9 @@ a.btn.btn-destaque {
   	@extend .before_content;
     background: {
       image: url(app_helpclass.png);
-      
+      size: 100% auto;
     }
     left:0px;
-   	background-size: 100% auto;
     background-repeat: no-repeat;
     width: 32%;
     height: 587px;
