@@ -289,8 +289,8 @@ h1.style1 {
   font-size:1.5rem;
   @extend .text-shadow;
 }
-
-a.btn.btn-destaque {
+a.btn{
+	&-destaque {
     border: 6px solid #fff;
     border-radius: 50px;
     text-transform: uppercase;
@@ -299,22 +299,24 @@ a.btn.btn-destaque {
     max-width: 350px;
     font-size: 1.3rem;
     padding: 15px 5px 16px;
-  @extend .mx-box-shadow;
-}
-.btn.btn-padrao{
-  width:100%;
-  max-width:320px;
-  border-radius:50px;
-  font-weight:bold;
-  padding:12px 10px;
-}
-.btn-clean{
-  @extend .btn.btn-padrao;
-  background:transparent;
-  border:1px solid #fff;
-  &:hover{
-   background:#fff;
-    color:$gray
+  	@extend .mx-box-shadow;
+	}
+  &-padrao{
+    width:100%;
+    max-width:320px;
+    border-radius:50px;
+    font-weight:bold;
+    padding:12px 10px;
+  }
+  &-clean{
+    @extend .btn-padrao;
+    background:transparent;
+    border:1px solid #fff;
+    &:hover{
+     background:#fff;
+      color:$gray;
+      border-color:#fff;
+    }
   }
 }
 
