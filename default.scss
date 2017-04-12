@@ -151,7 +151,9 @@ $blockquote-font-size:    ($font-size-base * 1.25) !default;
 @import 'bootstrap-4.0.0-alpha.6';
 
 
+
 // ADD YOUR CUSTOM CSS HERE  
+$gray-hover:  #0472B1;
 html{
 	background:$gray-dark;
 }
@@ -207,7 +209,14 @@ font-weight:normal!important;
 .py-6{
  	padding:80px 0px; 
 }
-
+.bg-gray{
+ background:$gray;
+  border-color:$gray;
+  &:hover{
+   background: $gray-hover; 
+    border-color:$gray-hover;
+  }
+}
 .btn-azul{
   font-size:22px;
   background:#0495E8;
