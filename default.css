@@ -6163,8 +6163,8 @@ a.btn.btn-destaque {
 
 #app-section:before {
   background-image: url(app_helpclass.png);
-  left: 0px;
   background-size: 100% auto;
+  left: 0px;
   background-repeat: no-repeat;
   width: 32%;
   height: 587px; }
